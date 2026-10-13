@@ -1,0 +1,19 @@
+{
+  "name": "carebridge",
+  "version": "1.1.0",
+  "description": "CareBridge - healthcare information-safety and care-coordination assistant (hackathon build). Not a medical device. Does not diagnose or prescribe.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "smoke": "node scripts/smoke.js",
+    "models": "node scripts/list-models.js",
+    "bench": "node scripts/bench.js"
+  }
+}
